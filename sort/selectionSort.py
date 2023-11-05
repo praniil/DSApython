@@ -12,7 +12,8 @@ def findSmallest(L):
 def selectionSort(L):
     newArr = []
     for i in range(len(L)):
-        smallest = findSmallest(L)
+        smallest = findSmallest(L) 
+        
         newArr.append(L.pop(smallest))
     return newArr
 
